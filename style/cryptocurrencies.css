@@ -1,0 +1,140 @@
+.cryptocurrency {
+    background-color: #FFFFFF;
+}
+.cryptocurrency__title {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #0d0d2b;
+    margin-bottom: 64px;
+}
+
+.coins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.coins__info {
+    width: 370px;
+    height: 433px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.coins__logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.coins__name {
+    font-family: "Rubik";
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #0d0d2b;
+    margin-bottom: 16px;
+}
+
+.coins__name sup {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #bdbdbd;
+}
+
+.coins__text {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #828282;
+    margin-bottom: 25px;
+}
+
+
+.coins__box {
+    width: 45px;
+    height: 45px;
+    background: #3671e9;
+    border-radius: 25px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+  
+.arrow {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+  
+.right {
+    transform: rotate(-45deg);
+}
+  
+.coins__box:hover {
+    width: 160px;
+    background: #3671e9;
+}
+  
+.coins__box:hover .arrow {
+    display: none;
+}
+  
+.coins__box .textbox {
+    display: none;
+}
+  
+.coins__box:hover .textbox {
+    display: flex;
+    font-family: "Rubik";
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 150%;
+    letter-spacing: 0.6px;
+    animation: anima 0.6s ease;
+}
+  
+@keyframes anima {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+}
+  
+.coins__box:active {
+    background: #3671e9;
+}
+
+
+.activeCoin {
+    background-color: #2b076e;
+}
+
+.activeCoin .coins__name, .activeCoin .coins__text {
+    color: #fff;
+}

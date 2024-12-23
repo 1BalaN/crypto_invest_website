@@ -1,0 +1,118 @@
+.mininigNow {
+    padding: 88px 0;
+    background: linear-gradient(180deg, #2b076e 0%, #0d0d2b 100%);
+    position: relative;
+
+}
+
+.mininigNow__form {
+    width: 1200px;
+    height: 216px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: #3671e9;
+    padding: 48px;
+    position: relative;
+}
+
+.form__info {
+    width: 1104px;
+    height: 120px;
+    display: grid;
+    grid-template-rows: 120px;
+    grid-template-columns: 501px 566px;
+    column-gap: 37px;
+}
+
+.mininigNow__title {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.mininigNow__text {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    max-width: 348px;
+}
+
+.mininigNow__add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mininigNow__email {
+    width: 374px;
+    height: 35px;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #fff; 
+    padding-bottom: 7px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.mininigNow__email::placeholder {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #fff;    
+}
+
+.mininigNow__subscribe {
+    width: 152px;
+    height: 55px;
+    border-radius: 32px;
+    padding: 14px 32px;
+    background: #fff;
+    border: none;
+    font-family: "Rubik";
+    color: #0d0d2b;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    transition: all linear .2s;
+}
+
+.mininigNow__subscribe:hover, .mininigNow__subscribe:focus {
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+
+.miningNow__svg-btc {
+    fill: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    top: 81px;
+    left: 1045px;
+}
+
+.miningNow__svg {
+    fill: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    left: 22px;
+    top: 0;
+}
+
+.mininigNow__error {
+    font-family: "Rubik";
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}

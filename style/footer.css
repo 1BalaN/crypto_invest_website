@@ -1,0 +1,233 @@
+.footer {
+    background-color: #0d0d2b;
+    padding-top: 80px;
+}
+
+.footer__container-1 {
+    width: 1201px;
+    height: 244px;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: 740px 356px;
+    grid-template-rows: 244px;
+    column-gap: 105px;
+}
+
+.footer__container-block-1 {
+    display: grid;
+    grid-template-columns: 271px repeat(2,200px);
+    grid-template-rows: 244px;
+    column-gap: 35px;
+}
+
+.block__logo {
+    width: 135px;
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.block__logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.block__logo p {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.block-links, .block-resources {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 190px;
+    row-gap: 24px;
+}
+
+.block-links h4, .block-resources h4 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 150%;
+    color: #fff;
+}
+
+.block-links div, .block-resources div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.block-links div a, .block-resources div p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 237%;
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+
+.block-links div a:hover, .block-resources div p:hover {
+    color: #f2f2f2;
+    transform: translateY(-2px);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer__container-block-2 {
+    width: 100%;
+    height: 200px;
+}
+
+.footer__container-block-2 h3 {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.payment {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment__visa, .payment__mastercard, .payment__bitcoin {
+    position: relative;
+    width: 96px;
+    height: 100%;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(224, 224, 224, 0.05);
+    transition: all linear .3s;
+}
+
+.payment__visa:hover, .payment__mastercard:hover, .payment__bitcoin:hover {
+    background: #fff;
+}
+.payment__visa:hover .visa path {
+    fill: #0d0d2b;
+}
+
+.mastercard-c1, .mastercard-c2 {
+    position: absolute;
+    top: 17px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.mastercard-c1 {
+    left: 24px;
+    background-color: rgba(130, 130, 130, 0.8);
+}
+.payment__mastercard:hover .mastercard-c1 {
+    background-color: rgba(235, 0, 27, 0.8);
+}
+
+.mastercard-c2 {
+    right: 24px;
+    background-color: rgba(224, 224, 224, 0.8);
+}
+.payment__mastercard:hover .mastercard-c2 {
+    background-color: rgba(247, 158, 27, 0.8);;
+}
+
+.payment__bitcoin:hover svg .btc_p-1 {
+    fill: #F7931A;
+}
+
+.payment__bitcoin:hover svg .btc_p-2 {
+    fill: #fff;
+}
+
+.footer__container-2 {
+    width: 1201px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.footer__container-2 p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.socmedia {
+    width: 248px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socmedia a {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.fa-brands {
+    color: #fff;
+    font-size: 24px;
+    transition: all 0.3s ease;
+}
+
+.socmedia a:hover .fa-facebook-f, .socmedia a:hover .fa-instagram, .socmedia a:hover .fa-youtube, .socmedia a:hover .fa-twitter, .socmedia a:hover .fa-linkedin {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.socmedia a:hover .fa-facebook-f {
+    color: #1877F2; 
+}
+
+.socmedia a:hover .fa-instagram {
+    color: transparent;
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+    -webkit-background-clip: text; /* Клипинг фона по тексту */
+    background-clip: text; 
+}
+
+.socmedia a:hover .fa-youtube {
+    color: #FF0000;
+}
+
+.socmedia a:hover .fa-twitter {
+    color: #1DA1F2; 
+}
+
+.socmedia a:hover .fa-linkedin {
+    color: #0077B5;
+}
+

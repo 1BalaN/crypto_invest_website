@@ -1,0 +1,212 @@
+.features {
+  background-color: #2b076e;
+  padding-top: 100px;
+  position: relative;
+}
+
+.features__svg {
+  position: absolute;
+  left: 171px;
+  top: 0;
+}
+
+.features__title {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.invest {
+  display: grid;
+  grid-template-rows: 427px;
+  grid-template-columns: 454px 580px;
+  column-gap: 100px;
+  margin-bottom: 120px;
+}
+
+.invest__text {
+  padding-top: 40px;
+}
+
+.invest__text__sub {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.invest__paragraph {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+  margin-bottom: 32px;
+}
+
+.invest__graphic--info {
+  width: 580px;
+  height: 427px;
+  position: relative;
+}
+
+.graphic {
+  width: 580px;
+  height: 298px;
+  background: #35068c;
+  border-radius: 16px;
+  padding: 40px 40px 48px;
+}
+
+.graphic__info {
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: 40px 382px 46px;
+  column-gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.graphic__photo {
+  width: 40px;
+  height: 40px;
+}
+.graphic__image {
+  width: 40px;
+  height: 40px;
+}
+
+.graphic__text--title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+.graphic__text--title sup {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  color: #cfcfcfb3;
+}
+.graphic__text--paragraph {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+}
+.graphic__text--procent {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  text-align: right;
+  color: #42ffff;
+}
+
+
+.graphic__svg path {
+  stroke-dasharray: 1231.53; /* Длина пути */
+  stroke-dashoffset: 1231.53; /* Полностью скрыт */
+  animation: draw 1.5s linear forwards;
+  animation-play-state: paused; /* Анимация отключена по умолчанию */
+}
+@keyframes draw {
+  to {
+      stroke-dashoffset: 0; /* Показывает линию полностью */
+  }
+}
+
+
+.trade {
+  width: 178px;
+  height: 184px;
+  border-radius: 16px;
+  background: #491f98;
+  padding: 24px 16px ;
+  position: absolute;
+  top: 243px;
+  left: 64px;
+}
+.trade__text {
+  font-family: "Intent";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.trade__procent {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.trade__procent--value {
+  font-family: "Intent";
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  margin-right: 7px;
+}
+.trade__text--extra {
+  font-family: "Intent";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+}
+
+.trade__dollar {
+  width: 169px;
+  height: 84px;
+  background: #491f98;
+  border-radius: 16px;
+  box-shadow: 15px 20px 40px 0 rgba(116, 117, 218, 0.15);
+  position: absolute;
+  top: 255px;
+  right: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 21px;
+}
+
+.trade__dollar--value {
+  font-family: "Intent";
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.trade__dollar--extra {
+  font-family: "Intent";
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: #f2f2f2;
+}
+
+
+.animated {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1.5s ease;
+}
+
+.animated.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+

@@ -1,0 +1,155 @@
+.earn {
+    height: 773px; 
+    background: linear-gradient(to bottom, #0D0D2B 457px, #FFFFFF 316px); 
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.earn__title {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.earn__text {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #e0e0e0;
+    max-width: 534px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.calculator {
+    width: 942px;
+    height: 371px;
+    box-shadow: 0 20px 200px 0 rgba(57, 23, 119, 0.05);
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.calculator__hashRate {
+    width: 403px;
+    height: 38px;
+    margin: 62px 48px 55px;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+    outline: none;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0d0d2b;
+}
+
+.calculator__hashRate:focus {
+    outline: none;
+}
+
+.calculator__hashRate::placeholder {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.calculator_hashPerSecond {
+    width: 200px;
+    height: 38px;
+    outline: none;
+    border: none;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    color: #000;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    position: relative;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10"><path fill="%23000000" d="M0 0l5 5 5-5z"/></svg>') no-repeat right center;
+    background-size: 12px 12px;
+    border-bottom: 1px solid #d3d3d3;
+    
+}
+.calculator_hashPerSecond option {
+    font-size: 16px;
+}
+select::-ms-expand {
+    display: none;
+}
+
+.calculator__button {
+    display: inline-block;
+    margin-left: 48px;
+    width: 147px;
+    height: 59px;
+    border-radius: 32px;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    transition: all linear .2s;
+}
+
+.calculator__button:hover {
+    font-size: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.calculator_24h {
+    margin: 48px 0 16px 48px;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #3671e9;
+}
+
+.result {
+    margin-left: 48px;
+    margin-bottom: 4px;
+    display: flex;
+}
+
+.crypto, .usd {
+    margin-right: 5px;
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #0d0d2b;
+}
+
+.usd {
+    color: #3671e9;
+}
+
+.calculator__text {
+    margin-left: 48px;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #828282;
+}

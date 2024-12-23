@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/Logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style/auth.css">
+    <title>Authentication</title>
+</head>
+<body>
+     
+    <form id="log_in" name="login" class="form">
+        <div class="form-title"><span>log in to your</span></div>
+        <div class="title-2"><span>CRAPPO</span></div>
+        <div class="input-container">
+            <input name="email" placeholder="Email" type="email" class="input-mail" />
+            <span> </span>
+        </div>
+
+        <section class="bg-stars">
+            <span class="star"></span>
+            <span class="star"></span>  
+            <span class="star"></span>
+            <span class="star"></span>
+        </section>
+
+        <div class="input-container">
+            <input name="password" placeholder="Password" type="password" class="input-pwd" />
+        </div>
+        <button name="submit" class="submit" type="submit">
+            <span class="sign-text">Log in</span>
+        </button>
+
+        <p class="signup-link">
+            No account?
+            <a id="up" class="up" href="#sign_up">Sign up!</a>
+        </p>
+    </form>
+
+    <form style="display: none;" id="sign_up" name="signUp" class="form">
+        <div class="form-title"><span>sign up to your</span></div>
+        <div class="title-2"><span>CRAPPO</span></div>
+        <div class="input-container">
+            <input name="email" placeholder="Email" type="email" class="input-mail" />
+            <span> </span>
+        </div>
+
+        <section class="bg-stars">
+            <span class="star"></span>
+            <span class="star"></span>  
+            <span class="star"></span>
+            <span class="star"></span>
+        </section>
+
+        <div class="input-container">
+            <input name="password" placeholder="Password" type="password" class="input-pwd" />
+        </div>
+        <button class="submit" type="submit">
+            <span class="sign-text">Sign up</span>
+        </button>
+
+        <p class="signup-link">
+            Have an account ?
+            <a id="in" class="up" href="#log_in">Log in!</a>
+        </p>
+    </form>
+    <script src="./script/auth.js"></script>
+</body>
+</html>

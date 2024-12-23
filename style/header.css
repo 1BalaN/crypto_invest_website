@@ -1,0 +1,135 @@
+.header {
+    padding-top: 60px;
+    background-color: #0D0D2B;
+    padding-bottom: 51px;
+}
+.navigation {
+    display: grid;
+    grid-template-rows: 52px;
+    grid-template-columns: 135px 846px 221px;
+    align-items: center;
+}
+.navigation__logo {
+    display: flex;
+    width: 135px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation__name {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__list {
+    width: 339px;
+    display: flex;
+    justify-content: center;
+}
+.menu__item {
+    list-style: none;
+    margin-right: 32px;
+}
+.menu__item:last-child {
+    margin-right: 0;
+}
+.menu__link {
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    position: relative; 
+    transition: transform 0.3s, color 0.3s; 
+}
+.menu__link:hover {
+    transform: scale(1.4); 
+}
+.menu__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background-color: #FFFFFF; 
+    transition: width 0.3s ease;
+}
+.menu__link:hover::after {
+    width: 100%; 
+}
+
+.navigation__auth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth__register {
+    width: 130px;
+    height: 52px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 32px;
+    transition: all .3s;
+    border: none;
+}
+
+.auth__register:hover {
+    font-size: 18px;
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+   
+@keyframes pulse512 {
+    0% {
+        box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+}
+
+.auth__login {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    transition: all linear .2s;
+}
+
+.auth__login:hover {
+    font-size: 18px;
+}
+
+
+
+
+

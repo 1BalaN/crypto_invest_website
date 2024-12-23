@@ -1,0 +1,78 @@
+.about {
+    background-color: #0D0D2B;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.about svg {
+    fill: linear-gradient(120deg, rgba(255, 255, 255, 0.08) 6.25%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.about__page {
+    width: 1200px;
+    height: 473px;
+    display: grid;
+    grid-template-columns: 650px 480px;
+    grid-template-rows: 473px;
+    column-gap: 70px;
+}
+
+.about__info {
+    justify-self: start;
+    align-self: center;
+}
+
+.about__title {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.about__text {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #e0e0e0;
+    margin-bottom: 32px;
+}
+
+/* From Uiverse.io by adamgiebl */ 
+.learn {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+  
+.learn:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+}
+  
+.learn:active {
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+}

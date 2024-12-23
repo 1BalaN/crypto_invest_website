@@ -1,0 +1,45 @@
+2. Why do you want to learn more about cryptocurrency?
+A) I want to try earning money.
+B) I’m curious about how it works.
+C) Everyone talks about it, and I want to keep up.
+D) I’m not sure yet.
+
+3. Have you ever tried buying cryptocurrency?
+A) Yes, I’ve bought some.
+B) No, but I’m planning to.
+C) No, it feels too complicated for me.
+
+4.Do you know where to buy cryptocurrency?
+A) Yes, I know about exchanges or online services.
+B) No, but I want to find out.
+C) I haven’t thought about it yet.
+
+5.What seems the most difficult part of cryptocurrency to you?
+A) How to start and what to do.
+B) How to store cryptocurrency safely.
+C) How to figure out when to buy or sell.
+D) I don’t understand anything about it yet.
+
+
+1. Вы уже знаете, что такое криптовалюта?
+A) Да, немного слышал(а).
+B) Нет, вообще ничего не знаю.
+C) Знаю, но хочу разобраться лучше.
+2. Почему вы хотите узнать больше о криптовалюте?
+A) Хочу попробовать заработать.
+B) Интересно, как это работает.
+C) Все говорят о криптовалюте, хочу быть в теме.
+D) Пока сам(а) не знаю.
+3. Вы уже пробовали покупать криптовалюту?
+A) Да, купил(а).
+B) Нет, но планирую.
+C) Нет, мне это пока сложно.
+4. Вы знаете, где можно купить криптовалюту?
+A) Да, знаю про биржи или обменники.
+B) Нет, но хочу узнать.
+C) Еще не думал(а) об этом.
+5. Что вам кажется самым сложным в криптовалюте?
+A) Как начать и куда нажимать.
+B) Как хранить криптовалюту безопасно.
+C) Как понять, когда покупать или продавать.
+D) Пока не понимаю вообще ничего.

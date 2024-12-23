@@ -1,0 +1,397 @@
+.detstats {
+    width: 1255px;
+    height: 468px;
+    position: relative;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 710px 456px;
+    column-gap: 89px;
+}
+
+.detstats__info {
+    padding-top: 105px;
+}
+
+.detstats__text {
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.detstats__info p {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.01em;
+    color: #e0e0e0;
+    max-width: 408px;
+    margin-bottom: 32px;
+}
+
+.view {
+    display: grid;
+    grid-template-rows: 76px 369px;
+    row-gap: 8px;
+}
+
+.view__profile, .view__graphic {
+    background: #35068c;
+    border-radius: 16px;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 455px 204px;
+    column-gap: 51px;
+}
+
+.profile__stats {
+    height: 76px;
+    display: grid;
+    grid-template-columns: 156px 108px 115px 76px;
+    align-items: center;
+}
+
+.profile__stats-value-1 {
+    padding-left: 40px;
+
+}
+.profile__stats-value-1 p {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+.profile__stats-value-1 p svg {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #8fffbe1A;
+}
+.profile__stats-value-1 p span {
+    font-weight: 500;
+    color: #42ffff;
+}
+#trends {
+    padding-left: 23px;
+    font-family: "Rubik";
+    font-size: 10px;
+    color: #bdbdbd;
+}
+
+.profile__stats-value-2 {
+    padding-left: 40px;
+
+}
+
+.profile__stats-value-3 {
+    padding-left: 44px;
+}
+
+.profile__stats-value-4 {
+    padding-left: 13px;
+}
+
+.profile__stats-value-2 p, .profile__stats-value-3 p, .profile__stats-value-4 p {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+#total, #high, #low {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    color: #bdbdbd;
+}
+
+.bio {
+    display: grid;
+    grid-template-columns: 44px 87px;
+    column-gap: 16px;
+}
+
+.bio__photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio__photo img {
+    width: 44px;
+    height: 44px;
+}
+
+.bio__value {
+    align-self: center;
+}
+
+.bio__name {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.bio__status {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #6edcb5;
+    text-transform: uppercase;
+}
+
+.view__graphic {
+    padding: 16px 35px 24px 40px;
+}
+
+.panel {
+    height: 34px;
+    margin-bottom: 19px;
+}
+
+.illustration {
+    display: grid;
+    grid-template-columns: 583px 42px;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+
+.illustration-svg {
+    position: relative;
+}
+
+.svg_grid {
+    position: absolute;
+    z-index: 1;
+}
+.chart-container {
+    position: absolute;
+    left: 13px;
+    top: 28px;
+    z-index: 2;
+}
+
+.svg-statistic rect {
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.illustration-values {
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.illustration-values p {
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 160%;
+    color: #fff;
+    opacity: 0.4;
+    margin-bottom: 7px;
+}
+
+.illustration-values p:nth-child(n+3) {
+    margin-bottom: 32px;
+}
+
+.illustration-values p:nth-child(2) {
+    transition: all linear .2s;
+}
+
+.svg-statistic {
+    transition: all ease-in-out .3s;
+}
+
+.illustration__month {
+    height: 16px;
+    width: 529px;
+    margin-left: 27px;
+    display: grid;
+    grid-template-columns: repeat(8,19px);
+    grid-template-rows: 16px;
+    column-gap: 55px;
+}
+
+.illustration__month p {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 160%;
+    text-align: center;
+    color: #bdbdbd;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel__elements {
+    width: 323px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel__select {
+    width: 91px;
+    height: 31px;
+    position: relative;
+}
+
+.custom_select {
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    height: 100%;
+    background: none; 
+    color: #ffffff; 
+    border: none; 
+    outline: none;
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    padding-right: 10px;
+    cursor: pointer;
+}
+  
+ 
+.panel__select::after {
+    content: '\25BC'; /* Символ ▼ */
+    font-size: 10px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Стрелка не кликабельна */
+}
+
+.custom_select option {
+    color: #000; 
+    background-color: #fff; 
+}
+
+
+.panel__cost {
+    width: 93px;
+    height: 30px;
+    position: relative;
+}
+
+.panel__cost p {
+    display: inline-block;
+}
+
+.panel__cost-usd {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.panel__cost-procent {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #42ffff;
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+.panel__cost-info, .panel__volume-info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #bdbdbd;
+}
+
+.panel__volume {
+    width: 59px;
+    height: 30px;
+    position: relative;
+}
+
+.panel__volume-btc {
+    font-family: "Rubik";
+    font-weight: 400;   
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.panel__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 157px;
+}
+
+.panelbtn {
+    width: 71px;
+    height: 34px;
+    border-radius: 32px;
+    border: none;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    transition: all linear .2s;
+}
+
+.panelbtn:hover {
+    transform: translateY(-3px);
+    font-size: 14px;
+}
+
+.panel__buttons-green {
+    background: #6edcb5;
+}
+.panel__buttons-red {
+    background: #ff325f;
+}
+
+  
+

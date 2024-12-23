@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/Logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style//var.css">
+    <link rel="stylesheet" href="./style/quiz.css">
+    <title>CRAPPO QUIZ</title>
+</head>
+<body>
+    <div class="quiz">
+        <form class="form_quiz" name="question_1">
+            <p class="quiz-question">What is cryptocurrency?</p>
+            <div class="custom-radio-group">
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="0" />
+                  <span class="custom-radio-checkmark"></span>
+                  Money printed by the government.
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="1" />
+                  <span class="custom-radio-checkmark"></span>
+                  Virtual coins used in games.
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="2" />
+                  <span class="custom-radio-checkmark"></span>
+                  Digital money independent of banks.
+                </label>
+                <p class="custom-radio-error">Choose answer option</p>
+            </div>
+            <div class="button-group">
+                <button id="q1" class="quiz-button next-button" type="button">Next ➜</button>
+            </div>
+        </form>
+        <form class="form_quiz" name="question_2">
+            <p class="quiz-question">Which cryptocurrency was created first?</p>
+            <div class="custom-radio-group">
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="2" />
+                  <span class="custom-radio-checkmark"></span>
+                  Bitcoin
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="1" />
+                  <span class="custom-radio-checkmark"></span>
+                  Ethereum
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="0" />
+                  <span class="custom-radio-checkmark"></span>
+                  Dogecoin
+                </label>
+                <p class="custom-radio-error">Choose answer option</p>
+            </div>
+            <div class="button-group">
+                <button id="q2" class="quiz-button next-button" type="button">Next ➜</button>
+            </div>
+        </form>
+        <form class="form_quiz" name="question_3">
+            <p class="quiz-question">What is the process of creating <br> new crypto coins called?</p>
+            <div class="custom-radio-group">
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="0" />
+                  <span class="custom-radio-checkmark"></span>
+                  Transferring
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="1" />
+                  <span class="custom-radio-checkmark"></span>
+                  Buying
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="2" />
+                  <span class="custom-radio-checkmark"></span>
+                  Mining
+                </label>
+                <p class="custom-radio-error">Choose answer option</p>
+            </div>
+            <div class="button-group">
+                <button id="q3" class="quiz-button next-button" type="button">Next ➜</button>
+            </div>
+        </form>
+        <form class="form_quiz" name="question_4">
+            <p class="quiz-question">What do you need to store cryptocurrency?</p>
+            <div class="custom-radio-group">
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="0" />
+                  <span class="custom-radio-checkmark"></span>
+                  Bank
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="2" />
+                  <span class="custom-radio-checkmark"></span>
+                  Wallet
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="1" />
+                  <span class="custom-radio-checkmark"></span>
+                  Phone
+                </label>
+                <p class="custom-radio-error">Choose answer option</p>
+            </div>
+            <div class="button-group">
+                <button id="q4" class="quiz-button next-button" type="button">Next ➜</button>
+            </div>
+        </form>
+        <form class="form_quiz" name="question_5">
+            <p class="quiz-question">What is the technology behind <br> cryptocurrencies called?</p>
+            <div class="custom-radio-group">
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="2" />
+                  <span class="custom-radio-checkmark"></span>
+                  Blockchain
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="1" />
+                  <span class="custom-radio-checkmark"></span>
+                  Server
+                </label>
+                <label class="custom-radio-container">
+                  <input type="radio" name="custom_radio" value="0" />
+                  <span class="custom-radio-checkmark"></span>
+                  Internet
+                </label>
+                <p class="custom-radio-error">Choose answer option</p>
+            </div>
+            <div class="button-group">
+                <button id="q5" class="quiz-button next-button" type="button">Result ➜</button>
+            </div>
+        </form>
+        <form id="result" class="form_quiz">
+          <h1>Quiz Results</h1>
+          <p>Your score:</p>
+          <div class="score"></div>
+          <p class="score-text"></p>
+          <button class="retry-btn" type="button">Back to website</button>
+        </form>
+    </div>
+    <script src="./script/quiz.js"></script>
+</body>
+</html>
